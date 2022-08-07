@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+    tools:context=".home"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/activity_home"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="15sp"
+            android:textColor="@color/purdy"
+            android:text="@string/predic_text"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/nama_ibu"/>
+
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Bunda "
+                android:textSize="15sp"
+                android:textColor="@color/purdy"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/txtNamaBunda"
+                android:inputType="text"
+                android:hint="Masukkan Nama Bunda"
+                android:textSize="12sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/icon_tgllahir"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtTglLahir"
+                    android:textSize="14sp"
+                    android:textColor="@color/purdy"
+                    android:textStyle="bold"
+                    android:text="Tanggal Lahir : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/etTglLahir"
+                    android:textColor="@color/purdy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/dateTglLahir"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:hint="pilih tanggal"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/berat_badan"
+            android:layout_marginTop="10dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"/>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Berat Badan"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/purdy"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+            <EditText
+                android:id="@+id/txtBeratBadan"
+                android:textSize="12sp"
+                android:hint="Masukkan Berat Badan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/anak_brp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/purdy"
+                android:text="Kelahiran Anak ke Berapa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/txtAnakKeBerapa"
+                android:textSize="12sp"
+                android:hint="Masukkan Anak ke Beraoa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="25dp"
+            android:layout_width="25dp"
+            android:id="@+id/calendar"
+            android:src="@drawable/calendar"
+            android:contentDescription="@string/calendar"/>
+
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/purdy"
+                android:text="@string/calendar"
+                android:textStyle="bold"
+                android:typeface="sans"
+                />
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/dateHPHT"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:hint="pilih tanggal"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtPrediksiKelahiran"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/purdy"
+            android:text="Prediksi Kelahiran : "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <!--
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:id="@+id/periodlength"
+            android:src="@drawable/iconname"
+            android:contentDescription="@string/period_length"
+            />
+
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_weight="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/purdy"
+                android:text="@string/period_length"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/txtPeriodLength"
+                android:textSize="12sp"
+                android:inputType="numberSigned|numberDecimal"
+                android:hint="Masukkan Lama MenstruasI"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_height="25dp"
+            android:layout_width="25dp"
+            android:id="@+id/length"
+            android:src="@drawable/cycle"
+            android:contentDescription="@string/cycle_length"/>
+
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/purdy"
+                android:text="@string/cycle_length"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:padding="2dp"/>
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/txtCycleLength"
+                android:textSize="12sp"
+                android:inputType="numberSigned|numberDecimal"
+                android:hint="@string/desc3"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/dateresult"
+            android:text="Periode Sebelumnya : "
+/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/datebaru"
+            android:textColor="@color/purdy"
+            android:text="Periode Selanjutnya : "
+            android:textStyle="bold"/>
+
+    </LinearLayout> -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:background="@color/purkish"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/btn_simpan"
+            android:textColor="#ffffff"
+            android:text="@string/simpan"
+            tools:ignore="ButtonStyle"
+            android:drawableStart="@drawable/ic_check_black_24dp"
+            android:drawableLeft="@drawable/ic_check_black_24dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"/>
+        <Button
+            android:background="@color/purdy"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/btn_hapus"
+            android:textColor="#ffffff"
+            android:text="@string/hapus"
+            tools:ignore="ButtonStyle"
+            android:drawableStart="@drawable/ic_delete_black_24dp"
+            android:drawableLeft="@drawable/ic_delete_black_24dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+</LinearLayout>

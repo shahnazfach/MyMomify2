@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+
+<resources>
+
+    <string name="app_name">Smart Bumil</string>
+    <string name="create_account">
+
+<font color="#00ff00">text</font>
+
+</string>
+
+    <string name="email">Email</string>
+
+    <string name="password">Password</string>
+
+    <string name="login">Login</string>
+
+    <string name="username">Username</string>
+
+    <string name="register">Register</string>
+
+    <string name="back_to_login">Back to Login</string>
+
+    <string name="days">days</string>
+
+    <string name="header">header</string>
+
+    <string name="namabunda">NAMA BUNDA</string>
+
+    <string name="tgllahirbunda">TANGGAL LAHIR BUNDA</string>
+
+    <string name="bb_bunda">BERAT BADAN BUNDA</string>
+
+    <string name="anakkebrp">KEHAMILAN ANAK KE BERAPA?</string>
+
+    <string name="cycle_length">RATA-RATA SIKLUS MENSTRUASI</string>
+
+    <string name="calendar">HARI PERTAMA HAID TERAKHIR</string>
+
+    <string name="desc1">Masukan nama bunda</string>
+
+    <string name="desc2">Predict your next periode start date.</string>
+
+    <string name="desc3">Jarak siklus menstruasi umumnya 21-35 hari</string>
+
+    <string name="desc4">Masukan tanggal lahir bunda</string>
+
+    <string name="desc5">Masukan berat badan bunda</string>
+
+    <string name="desc6">Masukan kehamilan anak ke berapa?</string>
+
+    <string name="prenatal">prenatal</string>
+
+    <string name="periodstart">PERIOD START</string>
+
+    <string name="set">Set</string>
+
+    <string name="report">Report</string>
+
+    <string name="note">Notes</string>
+
+    <string name="insight">Insights</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="DeleteNote">Are you Sure?</string>
+
+    <string name="save">SAVE</string>
+
+    <string name="delete">delete</string>
+
+    <string name="add">add new</string>
+
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="name_of_note_here">Name of note here</string>
+
+    <string name="your_text_here">Your text here</string>
+
+    <string name="name">name</string>
+
+    <string name="_7_6_2021">7/7/2021</string>
+
+    <string name="fgvgvkjdvmldngvmdngvmrfrfmmgbn">fgvgvkjdvmldngvmdngvmrfrfmmgbn</string>
+
+    <string name="simpan">Simpan</string>
+
+    <string name="hapus">Hapus</string>
+
+    <string name="title">Title</string>
+
+    <string name="tidak_ada_note">Tidak ada Note</string>
+
+    <string name="kosong">Kosong</string>
+
+    <string name="judul">Judul</string>
+
+    <string name="select_date_double_click">Pilih tanggal... (klik 2x)</string>
+
+    <string name="predic_text">Sebelum sistem memprediksi tafsiran usia kehamilan anda, silahkan isi data dibawah ini terlebih dahulu</string>
+
+    <string name="simpan_pada_notes">Simpan pada notes</string>
+
+    <string name="simpan_tanggal">Simpan Tanggal</string>
+
+    <string name="aboutapp">Aplikasi ini dapat membantu Anda para bumil untuk memprediksi dan mencatat usia kehamilan Anda. Agar Kemilan Anda tidak terkendala dan dapat melahirkan dengan aman.</string>
+
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+
+    <string name="aboutme">Credit: Shahnaz Fachriyanthy. \n 4KA06. 15117620. \n Universitas Gunadarma,  Depok</string>
+
+    <string name="period_length">LAMA MENSTRUASI</string>
+
+</resources>

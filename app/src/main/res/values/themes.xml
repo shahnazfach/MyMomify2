@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+    <resources>
+
+    <!-- Base application theme. -->
+
+
+
+    <style name="Theme.MyMomify" parent="Theme.AppCompat.Light.NoActionBar">
+
+    <!-- Customize your theme here. -->
+
+
+    <item name="colorPrimary">#FF0073</item>
+
+    <item name="colorAccent">#E0115F</item>
+
+    <item name="colorPrimaryDark">#fcc3ff</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppBarOverlay" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="elevation">0dp</item>
+    </style>
+
+</resources>
+

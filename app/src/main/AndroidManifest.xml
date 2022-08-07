@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.shahnazfachri.mymomify">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_smartbumil"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_smartbumil_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning,UnusedAttribute">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" android:theme="@style/Theme.MyMomify"
+            />
+        <activity android:name=".LoginActivity" android:theme="@style/Theme.MyMomify"
+            />
+        <activity android:name=".reportmenu"/>
+        <activity android:name=".home"
+            />
+        <activity android:name=".notemenu"/>
+        <activity android:name=".addnote"/>
+        <activity android:name=".insightmenu"/>
+        <activity android:name=".about"/>
+        <activity android:name=".Activities.MovieActivity" android:theme="@style/Theme.MyMomify"
+            />
+
+        <activity android:name=".PuskesmasActivity" android:theme="@style/Theme.MyMomify"
+            />
+
+        <activity android:name=".DetailPuskesmasActivity" android:theme="@style/Theme.MyMomify"
+            />
+
+        <activity android:name=".apkmenu"/>
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAHZGWNzmt2E-_dGMIOZ1hXE8RXLF5Vxj4" />
+
+
+
+
+    </application>
+
+</manifest>
